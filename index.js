@@ -23,9 +23,19 @@ function currentLine(currentLineOfPeople) {
   // array of names
   // returns string in order
   // "The line is currently: 1. Ada, 2. Grace"
+  // for (var i =0; i < currentLineOfPeople.length; i++) {
+  //   return 'The line is currently: 1. ' + currentLineOfPeople[i] + ', 2. ' + currentLineOfPeople[i + 1] + ', 3. ' + currentLineOfPeople[2]
+  // }
   if (currentLineOfPeople.length === 0) {
     return 'The line is currently empty.'
   } else {
     return 'The line is currently: 1. ' + currentLineOfPeople[0] + ', 2. ' + currentLineOfPeople[1] + ', 3. ' + currentLineOfPeople[2]
   }
+}
+var person = 0;
+function newTakeANum(person) {
+  // input = number
+  //output = number
+  // return person ++
+  return person + 1;
 }
